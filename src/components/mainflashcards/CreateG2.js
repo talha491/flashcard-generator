@@ -39,13 +39,13 @@ const CreateG2 = () => {
     if (values.groupName.length < 3) {
       errors.groupName = 'Please add minimum 3 characters'
     }
-    if (values.description.length < 15) {
+    if (values.description.length < 5) {
       errors.description = 'Please add minimum 5 words'
     }
     if (values.term.length < 3) {
       errors.term = "Please add minimum 3 characters"
     }
-    if (values.defination.length < 12) {
+    if (values.defination.length < 5) {
       errors.defination = "Please add minimum 5+ words "
     }
     return errors

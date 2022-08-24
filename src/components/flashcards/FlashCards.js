@@ -195,4 +195,3 @@ const FlashCards = () => {
 }
 
 export default FlashCards
-
