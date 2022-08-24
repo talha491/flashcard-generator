@@ -46,7 +46,7 @@ const CreateG2 = () => {
       errors.term = "Please add minimum 3 characters"
     }
     if (values.defination.length < 5) {
-      errors.defination = "Please add minimum 5+ words "
+      errors.defination = "Please add minimum 5 words "
     }
     return errors
   }
